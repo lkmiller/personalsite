@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+/* color palette: dusty rose- #8E7881, silver- #A19DA3, blue-#B3C2C4,  green- #B4D2BA, purple- #4B103B */
+@import url('https://fonts.googleapis.com/css2?family=Rock+3D&family=UnifrakturMaguntia&display=swap');
+* {
+  background-color: #a3afc2;
+  box-sizing: border-box;
+  background-repeat: round;
+  margin: 15px;
+  background-blend-mode: multiply;
+  font-family: 'Futura';
+  color:##ffffff;
+  cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAPCAMAAAAxmgQeAAAACVBMVEX///8AAAD///9+749PAAAAAXRSTlMAQObYZgAAAD5JREFUGNN1j9EKADAIAnP//9GjFq6w7iU4DNRsB06cb44TJ+UzYUcniqnqoA6ag/62JhjKIU0rxx1lKveuXJ5UAQs/G/2vAAAAAElFTkSuQmCC), auto;
+}
+
+.leftnavbox {
+  float: left;
+  width: 20%;
+  height: 600px;
+  border-style: round;
+  border-weight: 10px;
+  margin-top: 180px;
+  margin-left: 5%;
+}
+
+.leftnavbox li a{
+
+  text-decoration: none;
+  list-style: none;
+  line-height: 40px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.leftnavbox span {
+  background-color: inherit;
+  align-content: left;
+  list-style: none;
+  display: block;
+
+
+}
+
+.navimg {
+  margin: inherit;
+  padding: inherit; 
+}
+
+.landing{
+  background-color:#20dfe6;
+  float: right;
+  width: 70%;
+  height: 500px;
+}
+
+.landingimg {
+  height: auto;
+  width: inherit;
+}
+
+.toptext {
+  float: right;
+  background-blend-mode: hard-light;
+  color:  #f2a5ca;
+  font-size: 40px;
+}
