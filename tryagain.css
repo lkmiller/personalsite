@@ -4,64 +4,108 @@
 /* color palette: dusty rose- #8E7881, silver- #A19DA3, blue-#B3C2C4,  green- #B4D2BA, purple- #4B103B */
 @import url('https://fonts.googleapis.com/css2?family=Rock+3D&family=UnifrakturMaguntia&display=swap');
 * {
-  background-color: #a3afc2;
+  background-color: #ffffff;
   box-sizing: border-box;
   background-repeat: round;
   margin: 15px;
   background-blend-mode: multiply;
   font-family: 'Futura';
-  color:##ffffff;
+  color:#00000;
   cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAPCAMAAAAxmgQeAAAACVBMVEX///8AAAD///9+749PAAAAAXRSTlMAQObYZgAAAD5JREFUGNN1j9EKADAIAnP//9GjFq6w7iU4DNRsB06cb44TJ+UzYUcniqnqoA6ag/62JhjKIU0rxx1lKveuXJ5UAQs/G/2vAAAAAElFTkSuQmCC), auto;
 }
 
-.leftnavbox {
-  float: left;
-  width: 20%;
-  height: 600px;
-  border-style: round;
-  border-weight: 10px;
-  margin-top: 180px;
-  margin-left: 5%;
+h1 {
+  font-size: 30px;
+}
+.toptext {
+  float: right;
+  height: auto;
+  width: auto;
+  align-items: center;
+  font-size: 30px;
+  background: #ffffff;
+
+}
+.toptext span {
+ color: #9878ab;
+   background: #ffffff;
+
+}
+.toptext span:hover {
+  color: #34f51b;
 }
 
-.leftnavbox li a{
+.topnav{
+  margin: 0;
+  float: left;
+  background: #ffffff;
+  width: 100%;
+  height: 20%;
+  border-style: round;
+}
 
+.topnav ul {
+  display: flex;
+  align-items: center;
   text-decoration: none;
   list-style: none;
-  line-height: 40px;
-  font-weight: 700;
-  font-size: 20px;
+  background: #ffffff;
+  color: #34f51b;
 }
 
-.leftnavbox span {
+.topnav li a{
+  display: inline;
+  align-items: left;
+  float: center;
+  text-decoration: none;
+  color: #9878ab;
+  list-style: none;
+  line-height: 40px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.topnav span {
   background-color: inherit;
   align-content: left;
   list-style: none;
   display: block;
 
-
 }
 
 .navimg {
-  margin: inherit;
-  padding: inherit; 
+
 }
 
 .landing{
   background-color:#20dfe6;
   float: right;
-  width: 70%;
-  height: 500px;
+  margin-top: 200px;
+  width: 50px;
+  height: 200px;
 }
 
 .landingimg {
-  height: auto;
-  width: inherit;
+  float:left;
+  margin-right: 10%;
+  height: 500px;
+  width: auto;
 }
 
-.toptext {
-  float: right;
-  background-blend-mode: hard-light;
-  color:  #f2a5ca;
-  font-size: 40px;
+.landingimg:hover {
+}
+
+.landinginfo {
+  float: center;
+  width: 40%;
+  height: 40%;
+
+  background-color: #f5f7c3;
+}
+
+
+}
+
+.landinginfo {
+  background-color: #34f51b;
 }
