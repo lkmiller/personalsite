@@ -97,10 +97,10 @@ h1 {
 
 .landinginfo {
   float: center;
-  width: 40%;
-  height: 40%;
+  margin-left: 10%;
+  width: 70%;
+  height: auto;
 
-  background-color: #f5f7c3;
 }
 
 
@@ -108,4 +108,48 @@ h1 {
 
 .landinginfo {
   background-color: #34f51b;
+}
+
+.footer {
+  width: 100%;
+  height: inherit;
+  margin: auto;
+  text-align: center;
+  margin-top: 80px;
+  padding: 20px;
+  float: center;
+  justify-content: center;
+  background-color: #none;
+}
+
+.footer ul {
+  align-items: center;
+  justify-content: center;
+  display: inline;
+  list-style: none;
+  background-color: inherit;
+
+}
+.footer li {
+  display: inline;
+  list-style: none;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  background-color: inherit;
+}
+
+.footer a {
+  align-items: center;
+  justify-content: center;
+  background-color: inherit;
+  font-size: 10px;
+}
+.footer li a {
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  text-decoration: none;
+  background-color: inherit;
 }
