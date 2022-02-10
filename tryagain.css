@@ -4,7 +4,7 @@
 /* color palette: dusty rose- #8E7881, silver- #A19DA3, blue-#B3C2C4,  green- #B4D2BA, purple- #4B103B */
 @import url('https://fonts.googleapis.com/css2?family=Rock+3D&family=UnifrakturMaguntia&display=swap');
 * {
-  background-color: #ffffff;
+
   box-sizing: border-box;
   background-repeat: round;
   margin: 15px;
@@ -13,6 +13,9 @@
   color:#00000;
   cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAPCAMAAAAxmgQeAAAACVBMVEX///8AAAD///9+749PAAAAAXRSTlMAQObYZgAAAD5JREFUGNN1j9EKADAIAnP//9GjFq6w7iU4DNRsB06cb44TJ+UzYUcniqnqoA6ag/62JhjKIU0rxx1lKveuXJ5UAQs/G/2vAAAAAElFTkSuQmCC), auto;
 }
+ section {
+   display: block;
+ }
 
 h1 {
   font-size: 30px;
@@ -73,7 +76,10 @@ h1 {
 
 }
 
-.navimg {
+.landingtext {
+ color: "#ffffff";
+ align-items: center;
+
 
 }
 
@@ -86,8 +92,8 @@ h1 {
 }
 
 .landingimg {
-  float:left;
-  margin-right: 10%;
+  float:center;
+  display:block;
   height: 500px;
   width: auto;
 }
@@ -95,16 +101,23 @@ h1 {
 .landingimg:hover {
 }
 
+.about {
+ background: "#ffffff";
+
+}
+
 .landinginfo {
   float: center;
   margin-left: 10%;
   width: 70%;
   height: auto;
+  display: inline;
 
 }
 
 .footer {
   width: 100%;
+  display: fixed;
   height: inherit;
   margin: auto;
   text-align: center;
