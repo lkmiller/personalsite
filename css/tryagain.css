@@ -115,11 +115,9 @@ h1 {
 
 }
 
-.footer {
+footer {
   width: 100%;
-  display: fixed;
-  height: inherit;
-  margin: auto;
+  display: flex;
   text-align: center;
   margin-top: 80px;
   padding: 20px;
@@ -128,34 +126,11 @@ h1 {
   background-color: #none;
 }
 
-.footer ul {
-  align-items: center;
-  justify-content: center;
-  display: inline;
-  list-style: none;
-  background-color: inherit;
 
-}
-.footer li {
-  display: inline;
-  list-style: none;
-  text-decoration: none;
-  align-items: center;
-  justify-content: center;
-  background-color: inherit;
-}
 
-.footer a {
+footer a {
   align-items: center;
   justify-content: center;
   background-color: inherit;
   font-size: 10px;
-}
-.footer li a {
-  display: inline;
-  align-items: center;
-  justify-content: center;
-  list-style: none;
-  text-decoration: none;
-  background-color: inherit;
 }
