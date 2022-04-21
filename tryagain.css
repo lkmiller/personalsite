@@ -99,16 +99,14 @@ color: #81ff6b;
   display:block;
   height: 300px;
   opacity: 0.9;
+  z-index: auto;
 }
 
 .landingimg:hover {
-  opacity: 0.2;
+opacity: 0.4;
 }
 
-.about {
- background: "#ffffff";
 
-}
 
 .landinginfo {
   float: center;
@@ -129,6 +127,7 @@ footer {
   float: center;
   justify-content: center;
   background-color: #81ff6b;
+  opacity: 0.5;
 }
 
 
@@ -141,6 +140,7 @@ footer a {
 }
 footer p {
   font-size: 15px;
+  background: none;
 }
 
 p {
