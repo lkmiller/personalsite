@@ -97,8 +97,8 @@ h1 {
 .landingimg {
   float:center;
   display:block;
-  height: 400px;
-  width: 900px;
+  height: 300px;
+  opacity: 0.9; 
 }
 
 .landingimg:hover {
