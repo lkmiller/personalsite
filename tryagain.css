@@ -9,7 +9,7 @@
   background-repeat: round;
   background-blend-mode: multiply;
   font-family: 'Futura';
- background-color:#e0c8e8;
+ background-color:#e1d1e3;
   margin: 15px;
   cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAPCAMAAAAxmgQeAAAACVBMVEX///8AAAD///9+749PAAAAAXRSTlMAQObYZgAAAD5JREFUGNN1j9EKADAIAnP//9GjFq6w7iU4DNRsB06cb44TJ+UzYUcniqnqoA6ag/62JhjKIU0rxx1lKveuXJ5UAQs/G/2vAAAAAElFTkSuQmCC), auto;
 }
@@ -53,19 +53,19 @@ h1 {
   text-decoration: none;
   list-style: none;
   background: none;
-  color: #34f51b;
+
 }
 
 .topnav ul li a{
   display: inline;
-  align-items: left;
+  align-items: center;
   float: center;
   text-decoration: none;
-color: #81ff6b;
   list-style: none;
-  line-height: 40px;
+  line-height: 30px;
   font-weight: 400;
   font-size: 16px;
+  color: #121112;
 }
 
 .topnav span {
@@ -126,7 +126,6 @@ footer {
   margin-right: none;
   float: center;
   justify-content: center;
-  background-color: #81ff6b;
   opacity: 0.5;
 }
 
